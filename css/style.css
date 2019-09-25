@@ -1,0 +1,2807 @@
+/* ===================================================
+    Expro - Multipurpose  HTML5 Onepage Template
+    Version: 1.1
+    Author: husain100b
+       =================================================
+       Table of content
+
+       01. FONTS
+       02. MAIN STYLES
+       03. SECTION HEADING STYLES
+       04. HOME TWO SECTION HEADING STYLE
+       05. HEADER STYLES
+       06. FEATURES STYLES
+       07. ABOUT US STYLES
+       08. HOME TWO ABOUT US STYLE
+       09. PORTFOLIO STYLES
+       10. HOME TWO PORTFOLIO STYLE
+       11. COUNTER STYLE
+       12. HOME TWO COUNTER STYLE
+       13. SERVICE STYLES
+       14. HOME PART TWO SERVICE STYLES
+       15. TEAM STYLES
+       16. HOME TWO TEAM STYLE
+       17. SEPARATOR AREA
+       18. PRICING TABLES STYLES
+       19. HOME TWO PRICING STYLE
+       20. TESTIMONIAL STYLES
+       21. HOME TWO TESTIMONIAL STYLE
+       22. BLOG STYLES
+       23. HOME TWO BLOG STYLE
+       24. GET IN TOUCH STYLE
+       25. CONTACT STYLES
+       26. CLIENTS STYLE
+       27. COPYRIGHT AREA
+       28. HOME TWO FOOTER STYLE
+       29. SCROLLUP
+       30. RESPONSIVE NAV BUTTON STYLES
+       31. PRELOADER STYLES
+
+==================================================== */
+
+/*=====================
+        01. FONTS
+=======================*/
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,700,900');
+
+
+
+/*===========================
+      02. MAIN STYLES
+=============================*/
+body {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', Sans-serif;
+    line-height: 28px;
+    margin: 0;
+    position: relative;
+    background-color: #f5f5f5;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a, a:link, a:hover, a:focus, a:active {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+
+/* =======================
+    03. SECTION HEADING
+ =========================*/
+.section-heading {
+    margin: 0px auto 100px;
+    text-align: center;
+}
+
+.section-heading h2 {
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    padding: 0 60px;
+    border-right: 1px solid rgb(18,22,38);
+    border-left: 1px solid rgb(18,22,38);
+    font-size: 40px;
+    line-height: 1;
+    font-family: 'Raleway', sans-serif;
+}
+
+.section-heading .section-heading-style {
+    font-weight: 100;
+}
+
+.section-heading p {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    color: #8c8686;
+}
+
+
+
+/* ======================================== 
+      04. HOME TWO SECTION HEADING STYLE
+ ========================================== */
+.home-two-section-heading {
+    text-align: center;
+}
+
+.home-two-section-heading 
+.home-two-section-heading-line {
+    width: 140px;
+    background-color: #FF1D5D;
+    height: 1px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.home-two-section-heading-gradient 
+.home-two-section-heading-line {
+    background-image: linear-gradient(to top,#ff8a00,#da1b60);
+}
+
+.home-two-section-heading p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #9192A4;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin-bottom:15px;
+    letter-spacing: 4px;
+}
+
+
+.home-two-section-heading h2 {
+    font-weight: 700;
+    color: #fff;
+    font-size: 44px;
+    line-height: 68px;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+    letter-spacing: 3px;
+}
+
+.home-two-section-heading.second-section-heading h2 {
+    color: #fff;
+}
+
+.home-two-section-heading.section-heading-three h2 {
+    color: #000;
+}
+
+.home-two-section-heading h2 
+.section-title-color {
+    color: #FF1D5D;
+}
+
+.home-two-section-heading-gradient h2 
+.section-title-color {
+    color: #ff8a00;
+}
+
+
+
+/* ============================
+    05. HEADER STYLES
+=============================== */
+#header-area {
+    overflow: hidden;
+    background-color: #fff;
+    height: 100vh;
+    position: relative;
+}
+
+
+#header-area:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(14, 22, 38, .7);
+}
+/*                                                      inja ro avaz kardam                */
+.header-img-bg {
+    background-image: url("../img/1.jpeg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.header-part-two-bg {
+    background-image: url(../img/bg/2.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+#header-area .header-video-bg video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+
+.header-top {
+    overflow: hidden;
+    padding: 15px;
+    display: none;
+}
+
+
+
+#header-area .z-index {
+    position: relative;
+    z-index: 999;
+    margin-top: 19px;
+}
+
+#header-area .header-top .z-index {
+    position: relative;
+    z-index: 5000;
+}
+
+
+a.nav-link {
+    font-size: 14px;
+    color: #fff !important;
+}
+
+a.nav-link.active {
+    color: #ffc107 !important;
+}
+
+.header-part-two a.nav-link.active {
+    color: #FF1D5D !important;
+}
+
+.header-part-two-gradient a.nav-link.active {
+    color: #ff8a00 !important;
+}
+
+.fix-nav {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #0E1626;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+.responsive-nav-btn {
+    border: 1px solid #fff;
+}
+
+.responsive-nav-btn span {
+    color: #fff;
+    font-size: 20px;
+}
+
+.dropdown-item {
+    color: #fff;
+}
+
+/*========== Logo ===========*/
+#navbar-header .navbar-brand {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    color: #fff !important;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 30px;
+}
+
+.header-part-two-gradient 
+#navbar-header .navbar-brand {
+    color: #ff8a00 !important;
+}
+
+/* ======= Header bottom styles ==========*/
+.header-bottom .item {
+    padding-top: 100px;
+}
+
+.header-bottom h2 {
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 10%;
+    line-height: 80px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 10px;
+}
+
+.header-bottom p {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 200;
+    line-height: 28px;
+}
+
+.header-bottom .h-btn {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: inline-block;
+    background: #ffc107;
+    padding: 8px 30px;
+    margin-top: 25px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.header-bottom .h-btn:hover {
+    background: rgba(255, 255, 255, .1);
+}
+
+.header-bottom .animate-heading {
+    position: relative;
+    z-index: 2;
+}
+
+.header-bottom .animate-heading h2 .is-visible {
+    color: #ffc107;
+}
+
+
+.header-part-two .header-bottom 
+.single-slider .slider-top-line {
+    width: 140px;
+    background-color: #FF1D5D;
+    height: 1px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.header-part-two-gradient .header-bottom 
+.single-slider .slider-top-line {
+    background-image: linear-gradient(to top,#ff8a00,#da1b60);
+}
+
+.header-part-two .header-bottom .single-slider p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #9192A4;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+
+.header-part-two .header-bottom 
+.single-slider h1 {
+    font-weight: 700;
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 68px;
+    margin-bottom: 30px;
+}
+
+.header-part-two .header-bottom .single-slider 
+h1 .slider-heading-color {
+    color: #FF1D5D;
+}
+
+.header-part-two-gradient .header-bottom 
+.single-slider h1 .slider-heading-color {
+    color: #ff8a00;
+}
+
+.header-part-two .header-bottom .single-slider h6 {
+    color: #9193A2;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.header-part-two .header-bottom .single-slider a {
+    color: #fff;
+    border: 1px solid #FF1D5D;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    display: inline-flex;
+    padding: 18px 20px;
+    letter-spacing: 3px;
+    transition: all .4s ease;
+}
+
+.header-part-two-gradient .header-bottom 
+.single-slider a {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ff8a00;
+    border-image: linear-gradient(to top,#ff8a00,#da1b60) 1;
+}
+
+.header-part-two .header-bottom 
+.single-slider a:hover {
+    background: #FF1D5D;
+}
+
+.header-part-two-gradient .header-bottom 
+.single-slider a:hover {
+    background-image: linear-gradient(to top,#ff8a00,#da1b60);
+}
+
+.header-part-two .header-bottom .single-slider a i {
+    color: #FF1D5D;
+    font-size: 30px;
+    margin-left: 15px;
+    transition: all .4s ease;
+}
+
+.header-part-two .header-bottom .single-slider a:hover i {
+    color: #fff;
+}
+
+/* =============================
+    06. FEATURES STYLES
+================================ */
+#features-area {
+    overflow: hidden;
+    padding: 120px 0;
+    background: #f5f5f5;
+}
+
+.single-features {
+    background-color: #f0f8ff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 35px;
+    position: relative;
+    box-shadow: 20px 0px 20px 0px rgba(1,0,0,0.1);
+    transition: all .4s;
+}
+
+.single-features:hover {
+    box-shadow: 20px 20px 20px 0px rgba(0,0,0,0.1);
+}
+
+
+.feature-icon .et-icon {
+    font-size: 35px;
+    color: #ffc107;
+    margin-bottom: 20px;
+}
+
+.single-features h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #000;
+    line-height: 32px;
+    font-weight: 700;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 1;
+    transition: all .4s;
+    letter-spacing: 1px;
+}
+
+.single-features p {
+    color: #8c8686;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    position: relative;
+    z-index: 1;
+    transition: all .4s;
+}
+
+
+/* ========================
+     07. ABOUT US STYLES
+  ========================= */
+#about-us-section {
+    overflow: hidden;
+    padding: 120px 0 110px;
+    background: #f0f8ff;
+    display: flex;
+    background-image: url(../img/bg/contact.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-attachment: fixed;
+}
+
+#about-us-section:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(14, 22, 38, .9);
+}
+
+.aboutus-text {
+    position: relative;
+    z-index: 1;
+}
+
+.aboutus-text h3 {
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.aboutus-text p {
+    font-size: 15px;
+    color: #fff;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+
+.aboutus-text .about-btn {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: inline-block;
+    background: #ffc107;
+    padding: 8px 30px;
+    margin-top: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.aboutus-text .about-btn:hover {
+    background: rgba(255, 255, 255, .1);
+}
+
+.about-img {
+    position: relative;
+    z-index: 1;
+}
+
+.about-img svg {
+    width: 530px;
+    height: 360px;
+}
+
+
+/* =================================== 
+      08. HOME TWO ABOUT US STYLE
+ ===================================== */
+ #home-two-aboutus-area {
+    padding: 140px 0;
+    background: #04091D;
+    overflow: hidden;
+
+ }
+ 
+ #home-two-aboutus-area .about-text h3 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    line-height: 36px;
+ }
+
+ #home-two-aboutus-area .about-text p {
+    color: #606060;
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 30px;
+ }
+
+#home-two-aboutus-area .about-text .about-btn {
+    color: #fff;
+    background: #FF1D5C;
+    width: 49px;
+    height: 49px;
+    display: inline-block;
+    text-align: center;
+    line-height: 49px;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: all .4s ease; 
+    position: relative;
+}
+
+#home-two-aboutus-area.home-two-aboutus-gradient 
+.about-text .about-btn {
+    background-image: linear-gradient(to top,#ff8a00,#da1b60);
+}
+
+#home-two-aboutus-area .about-text .about-btn::before {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255,255,255,0);
+    transition: all .4s;
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+#home-two-aboutus-area .about-text 
+.about-btn:hover::before {
+    transform: scale(1.8);
+    background: rgba(255,255,255,.3);
+    opacity: 0;
+}
+
+ #home-two-aboutus-area .about-img {
+    text-align: right;
+    position: relative;
+    width: 80%;
+    height: auto;
+    float: right;
+    clear: both;
+ }
+
+
+ #home-two-aboutus-area .about-img:before {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: -30px;
+    width: 100%;
+    height: 100%;
+    border: 15px solid #FF1D5C; 
+ }
+
+ #home-two-aboutus-area.home-two-aboutus-gradient 
+ .about-img:before {
+    border-width: 15px;
+    left: -30px;
+    top: 30px;
+    border-style: solid;
+    border-image: linear-gradient(to top,#ff8a00,#da1b60) 1
+ }
+
+  #home-two-aboutus-area.home-two-aboutus-gradient 
+  .about-img:after {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: 30px;
+    width: 100%;
+    border-width: 15px;
+    border-style: solid;
+    border-image: linear-gradient(to top,#ff8a00,#da1b60) 1;
+    height: 100%;
+  }
+
+
+  #home-two-aboutus-area .about-img img {
+    position: relative;
+    z-index: 9;
+  }
+
+
+/* ==============================
+     09. PORTFOLIO STYLES
+ ================================ */
+#portfolio-area {
+    padding: 120px 0 90px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.single-portfolio {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.single-portfolio:after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgb(18,22,38);
+    transform: scale(0);
+    transition: .5s ease;
+    right: 10px;
+    bottom: 10px;
+}
+
+.single-portfolio:hover:after {
+    transform: scale(1);
+}
+.single-portfolio .overlay-social-media {
+    position: absolute;
+    opacity: 0;
+    left: 0;
+    top: 29%;
+    right: 0;
+    width: 70%;
+    z-index: 3;
+    text-align: center;
+    margin: 0 auto;
+    transition: .6s ease;
+}
+.single-portfolio:hover .overlay-social-media {
+    opacity: 1;
+}
+
+.single-portfolio .overlay-social-media ul li {
+    display: inline-block;
+}
+
+.single-portfolio .overlay-social-media ul li a {
+    color: #fff;
+    display: block;
+    background: #ffc107;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+}
+
+.single-portfolio .overlay-social-media p {
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.single-portfolio img {
+    width: 100%;
+}
+
+ul.portfolio-nav {
+    padding: 0 0 30px;
+    text-align: center;
+}
+ul.portfolio-nav li {
+    display: inline-block;
+}
+ul.portfolio-nav li {
+    padding: 3px 20px;
+    margin-right: 10px;
+    background: #f5f5f5;
+    font-size: 14px;
+    color: #333;
+    font-weight: 400;
+    transition: .4s ease;
+    cursor: pointer;
+}
+
+ul.portfolio-nav li:last-child {
+    margin-right: 0px;
+}
+
+ul.portfolio-nav li:hover {
+    color: #fff;
+    background-color: rgb(18,22,38);
+}
+
+
+/* =================================== 
+      10. HOME TWO PORTFOLIO STYLE
+ ===================================== */
+#home-two-portfolio-area {
+    padding: 140px 0;
+    background: #04091D;
+    overflow: hidden;
+ }
+
+
+#home-two-portfolio-area .portfolio-nav {
+    margin-bottom: 50px;
+ }
+
+#home-two-portfolio-area .portfolio-nav ul li {
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+ }
+
+#home-two-portfolio-area .portfolio-nav ul li:hover {
+    color: #FF1D5C;
+}
+
+#home-two-portfolio-area.home-two-portfolio-gradient 
+.portfolio-nav ul li:hover {
+    color: #ff8a00;
+}
+
+#home-two-portfolio-area .portfolio-nav ul li:last-child {
+    margin-right: 0;
+ }
+
+
+#home-two-portfolio-area .portfolio-nav ul li.active {
+    color: #FF1D5C;
+}
+
+#home-two-portfolio-area.home-two-portfolio-gradient 
+.portfolio-nav ul li.active {
+    color: #ff8a00;
+ }
+ 
+#home-two-portfolio-area .portfolio-content {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+ }
+
+#home-two-portfolio-area .portfolio-content 
+.home-two-single-portfolio {
+    width: 33.333333%;
+    display: block;
+    position: absolute;
+}
+
+#home-two-portfolio-area .portfolio-content 
+.home-two-single-portfolio 
+.home-two-single-portfolio-img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#home-two-portfolio-area .hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  cursor: default;
+  background: rgba(255, 29, 92, 1);
+}
+
+#home-two-portfolio-area.home-two-portfolio-gradient 
+.hovereffect {
+  background-image: linear-gradient(to top,#ff8a00,#da1b60);
+}
+
+#home-two-portfolio-area .hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  padding: 3em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#home-two-portfolio-area .hovereffect img {
+  display: block;
+  position: relative;
+  max-width: none;
+  width: calc(100% + 60px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+  transition: opacity 0.35s, transform 0.45s;
+  -webkit-transform: translate3d(-40px,0,0);
+  transform: translate3d(-40px,0,0);
+}
+
+
+#home-two-portfolio-area .hovereffect .overlay:before {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  bottom: 20px;
+  left: 20px;
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
+  content: '';
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+  transition: opacity 0.35s, transform 0.45s;
+  -webkit-transform: translate3d(-20px,0,0);
+  transform: translate3d(-20px,0,0);
+}
+
+#home-two-portfolio-area .hovereffect ul {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+#home-two-portfolio-area .hovereffect a, .hovereffect p {
+  color: #FFF;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+  transition: opacity 0.35s, transform 0.45s;
+  -webkit-transform: translate3d(-10px,0,0);
+  transform: translate3d(-10px,0,0);
+}
+
+#home-two-portfolio-area .hovereffect a {
+    color: #000;
+    display: block;
+    background: #fff;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#home-two-portfolio-area .hovereffect:hover img {
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+#home-two-portfolio-area .hovereffect:hover .overlay:before,
+#home-two-portfolio-area .hovereffect:hover a, .hovereffect:hover p {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+/*=============================
+        11. COUNTER STYLE
+===============================*/
+#counter-area {
+    padding: 90px 0 68px;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    background-image: url(../img/bg/t.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+#counter-area:after {
+    position: absolute;
+    content: '';
+    background: rgba(14, 22, 38, .9);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.single-counter {
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.single-counter:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "Ionicons";
+    color: #ddd;
+    font-size: 150px;
+    margin-top: -25px;
+    z-index: -69;
+    opacity: .1;
+}
+.single-counter.project:before {
+    content: "\f3ed";
+}
+
+.single-counter.client:before {
+    content: "\f47d";
+}
+
+.single-counter.awards:before {
+    content: "\f228";
+}
+
+.single-counter.members:before {
+    content: "\f413";
+}
+
+.single-counter span {
+    display: block;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.single-counter span.counter-heading {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.single-counter i.icofont {
+    color: #fff;
+}
+
+
+ /* ================================
+       12. HOME TWO COUNTER STYLE
+   =================================  */
+#home-two-counter-area {
+    padding: 140px 0;
+    background: #04091D;
+    overflow: hidden;
+}
+
+
+#home-two-counter-area .counter-text .counter-text-line {
+    width: 140px;
+    background-color: #FF1D5D;
+    height: 1px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+#home-two-counter-area.home-two-counter-gradient 
+.counter-text 
+.counter-text-line {
+    background-image: linear-gradient(to top,#ff8a00,#da1b60);
+}
+
+#home-two-counter-area .counter-text p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #9192A4;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin-bottom:15px;
+}
+
+#home-two-counter-area .counter-text h3 {
+    font-weight: 700;
+    color: #fff;
+    font-size: 32px;
+    line-height: 48px;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+
+#home-two-counter-area.counter-area .counter-text h3 {
+    color: #000;
+}
+
+#home-two-counter-area.counter-three .counter-text h3 {
+    color: #000;
+}
+
+#home-two-counter-area .counter-text h3 .counter-title-color {
+    color: #FF1D5D;
+}
+
+#home-two-counter-area.home-two-counter-gradient .counter-text h3 
+.counter-title-color {
+    color: #ff8a00;
+}
+
+#home-two-counter-area .single-counter {
+    text-align: center;
+}
+
+#home-two-counter-area .single-counter i {
+    color: #FF1D5C;
+    font-size: 36px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+#home-two-counter-area.home-two-counter-gradient 
+.single-counter i {
+    color: #ffffff;
+}
+
+#home-two-counter-area .single-counter h2 {
+    color: #FF1D5D;
+    font-size: 66px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 40px;
+}
+
+#home-two-counter-area.home-two-counter-gradient 
+.single-counter h2 {
+    color: #ff8a00;
+}
+
+#home-two-counter-area .single-counter h4 {
+    color: #fff;
+    font-size: 28px;
+    line-height: 1;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#home-two-counter-area.second-counter-area 
+.single-counter h4 {
+    color: #fff;
+}
+
+#home-two-counter-area.counter-three 
+.single-counter h4 {
+    color: #000;
+}
+
+
+
+/* ========================
+    13. SERVICE STYLES
+  ======================== */
+#service-area {
+    overflow: hidden;
+    padding: 120px 0 90px;
+    background: #f5f5f5;
+}
+
+.single-service {
+    padding: 20px;
+    background: #f0f8ff;
+    box-shadow: 0 0 50px rgba(0,0,0,.1);
+    text-align: center;
+    margin-bottom: 30px;
+    transition: all .4s ease-in;
+    position: relative;
+}
+
+
+.single-service:hover {
+    box-shadow: 20px 0 50px rgba(0,0,0,.1);
+}
+
+.service-icon {
+    padding: 15px 0;
+}
+
+.service-icon i.icon {
+    font-size: 50px;
+    color: #ffc107;
+    line-height: 40px;
+    display: inline-block;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    transition: .4s ease;
+}
+
+.single-service:hover .service-icon i.icon {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.single-service h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #000;
+}
+
+.single-service p {
+    font-size: 16px;
+    color: #8c8686;
+    font-weight: 300;
+    margin-bottom: 10px;
+    line-height: 28px;
+}
+
+
+/* ======================================== 
+       14. HOME PART TWO SERVICE STYLES
+ ========================================== */
+#home-two-service-area {
+    overflow: hidden;
+    padding: 140px 0;
+    background: #04091D;
+}
+
+#home-two-service-area.second-service {
+    background: #100E17;
+}
+
+#home-two-service-area.service-three {
+    background: #eaedf5;
+}
+
+#home-two-service-area .home-two-single-service {
+    padding: 75px 25px;
+    border: 1px solid #FF1D5C;
+    text-align: center;
+    transition: all .4s ease;
+}
+
+#home-two-service-area.home-tow-service-gradient 
+.home-two-single-service {
+    border-style: solid;
+    border-width: 1px;
+    border-image: linear-gradient(to top,#ff8a00,#da1b60) 1;
+}
+
+#home-two-service-area.service-three 
+.home-two-single-service {
+    border: 0;
+}
+
+#home-two-service-area .home-two-single-service:hover {
+    background-color: #FF1D5C;
+}
+
+#home-two-service-area.home-tow-service-gradient 
+.home-two-single-service:hover {
+    background-image: linear-gradient(to top,#ff8a00,#da1b60);
+}
+
+#home-two-service-area .home-two-single-service i {
+    color: #FF1D5C;
+    font-size: 36px;
+    margin-bottom: 30px;
+    display: inline-block;
+    transition: all .4s ease;
+}
+
+#home-two-service-area 
+.home-two-single-service:hover i {
+    color: #fff;
+}
+
+#home-two-service-area.second-service 
+.home-two-single-service i {
+    color: #fff;
+}
+
+#home-two-service-area 
+.home-two-single-service h3 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+
+#home-two-service-area.second-service 
+.home-two-single-service h3 {
+    color: #fff;
+}
+
+#home-two-service-area.service-three 
+.home-two-single-service h3 {
+    color: #000;
+}
+
+
+#home-two-service-area .home-two-single-service p {
+    color: #787878;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+#home-two-service-area 
+.home-two-single-service:hover p {
+    color: #fff;
+}
+
+#home-two-service-area.second-service 
+.home-two-single-service p {
+    color: #272626;
+}
+
+#home-two-service-area.second-service 
+.home-two-single-service a {
+    border: 2px solid #fff;
+    padding: 10px 25px;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+/* ========================
+   15. TEAM STYLES
+=========================== */
+#team-section {
+    overflow: hidden;
+    padding: 120px 0;
+    background: #f0f8ff;
+}
+
+#team-section .col-md-4 {
+    overflow: hidden;
+}
+
+.single-team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 3;
+    transition: all .4s ease;
+}
+
+.single-team .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    content: "";
+    cursor: pointer;
+    background: rgba(14, 22, 38, .9);
+    transition: .4s ease;
+}
+
+
+.single-team:hover .overlay {
+    height: 100%;
+}
+
+.social-team {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    padding: 5px 15px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    margin-top: -32px;
+    z-index: 1;
+    opacity: 0;
+    transition: all .6s ease-in-out;
+}
+
+
+.single-team:hover .social-team {
+    margin-top: -16px;
+    opacity: 1;
+}
+
+.social-team ul li {
+    display: inline-block;
+}
+
+.social-team ul li a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: #ffc107;
+    line-height: 30px;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+    margin-right: 5px;
+}
+
+
+
+.intro-team {
+    display: block;
+    position: absolute;
+    bottom: 34%;
+    left: 0;
+    transition: all .4s ease-in-out;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
+    margin-bottom: -23.2px;
+    opacity: 0;
+}
+
+.single-team:hover .intro-team {
+    margin-bottom: -11.6px;
+    opacity: 1;
+}
+
+.intro-team h4 {
+    font-size: 16px;
+    line-height: 18px;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+}
+.intro-team span {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+/* ============================ 
+      16. HOME TWO TEAM STYLE
+  ============================= */
+#home-two-team-area {
+    padding: 140px 0;
+    background: #04091D;
+    overflow: hidden;
+}
+
+#home-two-team-area .home-two-single-team {
+    position: relative;
+}
+
+#home-two-team-area.home-two-pricing-gradient 
+.home-two-single-team:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-image: linear-gradient(to top,#ff8a00,#da1b60);
+    transition: all .4s ease;
+}
+
+#home-two-team-area.home-two-pricing-gradient 
+.home-two-single-team:hover:after {
+    height: 100%;
+} 
+
+#home-two-team-area .home-two-single-team .single-team-img img {
+    width: 100%;
+    max-width: 100%;
+}
+
+
+
+/*===========================
+    17. SEPARATOR AREA
+============================= */
+#separator-area {
+    background-image: url(../img/bg/separator-bg.jpeg);
+    background-size: cover;
+    background-position: bottom center;
+    overflow: hidden;
+    padding: 90px 0 95px;
+    position: relative;
+    background-attachment: fixed;
+}
+
+#separator-area:after {
+    position: absolute;
+    content: '';
+    background: rgba(14, 22, 38, .9);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+#separator-area .z-index {
+    position: relative;
+    z-index: 1;
+}
+
+#separator-area .separator-text {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#separator-area .separator-text p {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 44px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+#separator-area .separator-text a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: inline-block;
+    background: #ffc107;
+    padding: 8px 30px;
+    font-weight: 700;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all .4s ease;
+    margin-top: 30px;
+}
+
+
+#separator-area .separator-text a:hover {
+    background: rgba(255, 255, 255, .1);
+}
+
+/* ===========================
+    18. PRICING TABLES STYLES
+ ============================= */
+#pricing-table {
+    overflow: hidden;
+    padding: 120px 0;
+    background: #f0f8ff;
+}
+
+.single-pricing-table {
+    background-color: #f0f8ff;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 0 50px rgba(0,0,0,.1);
+}
+
+.single-pricing-table.active {
+    background: #0e1626;
+}
+
+
+.single-pricing-table h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 20px;
+    color: #333;
+    font-weight: 600;
+}
+
+.single-pricing-table.active h3 {
+    color: #fff;
+}
+
+.single-pricing-table h2 {
+    font-size: 50px;
+    padding: 20px 0;
+    color: #333;
+    font-weight: 700;
+}
+
+.single-pricing-table.active h2 {
+    color: #fff;
+}
+
+.single-pricing-table p {
+    font-size: 14px;
+    padding: 20px 0;
+    border-top: 1px solid #eee;
+    color: #333;
+}
+
+.single-pricing-table.active p {
+    color: #fff;
+    border-top: 1px solid #0c121d;
+}
+
+.single-pricing-table p a {
+    display: inline-block;
+    padding: 5px 60px;
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(0,0,0,.1);
+    color: #333;
+    text-transform: uppercase;
+    background-color: #fff;
+    transition: all .4s;
+    font-weight: 600;
+}
+
+.single-pricing-table p a:hover {
+    color: #fff;
+    background: #ffc107;
+
+}
+
+.single-pricing-table.active p a {
+    color: #fff;
+    background: #ffc107;
+}
+
+
+/* ================================ 
+      19. HOME TWO PRICING STYLE
+  ================================= */
+#home-two-pricing-area {
+    padding: 140px 0;
+    background: #04091D;
+    overflow: hidden;
+}
+
+
+#home-two-pricing-area .home-two-single-pricing {
+    background: #121627;
+    text-align: center;
+    padding: 60px 0 60px;
+    position: relative;
+    transition: all .4s ease;
+}
+
+#home-two-pricing-area .home-two-single-pricing 
+.best-deal {
+    position: absolute;
+    top: 25px;
+    right: 5px;
+    width: 85px;
+    height: 35px;
+    background-color: #FF1D5C;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Oswald', sans-serif;
+    line-height: 18px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    transform: rotate(90deg);
+    align-items: center;
+    box-shadow: 0 0 6px rgba(0,0,0,.1);
+}
+
+#home-two-pricing-area.home-two-pricing-gradient 
+.home-two-single-pricing .best-deal {
+    background-image: linear-gradient(to top,#ff8a00,#da1b60);
+}
+
+#home-two-pricing-area .home-two-single-pricing h3.pricing-title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+
+#home-two-pricing-area .home-two-single-pricing h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+
+#home-two-pricing-area .home-two-single-pricing 
+h1 .money-sign {
+    color: #FF1D5C;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 20px;
+    position: relative;
+    top: -13px;
+}
+
+#home-two-pricing-area.pricing-three 
+.home-two-single-pricing h1 
+.money-sign {
+    color: #fff;
+}
+
+#home-two-pricing-area.home-two-pricing-gradient 
+.home-two-single-pricing h1 
+.money-sign {
+    color: #ff8a00;
+}
+
+#home-two-pricing-area 
+.home-two-single-pricing h1 
+.separate-line {
+    color: #FF1D5C;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 34px;
+}
+
+#home-two-pricing-area.home-two-pricing-gradient 
+.home-two-single-pricing h1 
+.separate-line {
+    color: #ff8a00;
+}
+
+#home-two-pricing-area.pricing-three 
+.home-two-single-pricing h1 
+.separate-line {
+    color: #fff;
+}
+
+#home-two-pricing-area .home-two-single-pricing h1 
+.license-text {
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+#home-two-pricing-area 
+.home-two-single-pricing ul li {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 35px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+#home-two-pricing-area 
+.home-two-single-pricing a {
+    background: #FF1D5C;
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 60px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 15px;
+    line-height: 24px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16);
+    transition: all .4s ease; 
+}
+
+#home-two-pricing-area 
+.home-two-single-pricing:hover a {
+    background: #fff;
+    color: #000;
+}
+
+#home-two-pricing-area.home-two-pricing-gradient 
+.home-two-single-pricing a {
+    border: 1px solid #ff8a00;
+    background: transparent;
+    transition: all .4s ease;
+}
+
+#home-two-pricing-area.home-two-pricing-gradient 
+.home-two-single-pricing:hover a {
+    background-image: linear-gradient(to top,#ff8a00,#da1b60);
+    background: #ff8a00;
+    color: #fff;
+}
+
+/* ==========================
+    20. TESTIMONIAL STYLES
+ ============================ */
+ #testimonial-area {
+    overflow: hidden;
+    padding: 110px 0 105px;;
+    background-color:#f5f5f5;
+    background-image: url(../img/testimonial/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+ }
+
+#testimonial-area:after {
+    position: absolute;
+    content: '';
+    background: rgba(14, 22, 38, .9);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.single-testimonial {
+    text-align: center;
+    padding: 50px 0;
+    box-shadow: 0px 0px 1px rgba(255,255,255,.1);
+    margin: 10px;
+}
+
+.testimonial-image {
+    width: 110px;
+    display: inline-block;
+    height: 110px;
+    margin: 0 auto 20px;
+}
+
+.testimonial-image img {
+    border-radius: 50%;
+}
+
+.testimonial-text {
+    padding: 0 50px;
+}
+
+.testimonial-text p {
+    font-size: 16px;
+    color: #fff;
+    font-style: italic;
+    font-weight: 200;
+    line-height: 32px;
+}
+
+.testimonial-author span {
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    height: 28px;
+    background: transparent;
+    display: block;
+    border: 1px solid #fff;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background-color: #ffc107;
+    border: 1px solid #ffc107;
+}
+
+/* ====================================== 
+       21. HOME TWO TESTIMONIAL STYLE
+  ======================================= */
+#home-two-testimonial-area {
+    padding: 140px 0;
+    background: #04091D;
+    overflow: hidden;
+}
+
+#home-two-testimonial-area 
+.home-two-single-testimonial {
+    background: #FF1D5C;
+    border-radius: 5px;
+    padding: 50px 55px;
+    text-align: center;
+    position: relative;
+    margin-top: 80px;
+}
+
+#home-two-testimonial-area.home-two-testimonial-gradient 
+.home-two-single-testimonial {
+    background-image: linear-gradient(to top,#ff8a00,#da1b60);
+}
+
+#home-two-testimonial-area 
+.home-two-single-testimonial 
+.testimonial-profile-image {
+    display: inline-block;
+    position: absolute;
+    top: -75px;
+    left: 50%;
+    margin-left: -74px;
+}
+
+#home-two-testimonial-area 
+.home-two-single-testimonial 
+.testimonial-profile-image img {
+    border-radius: 50%;
+}
+
+#home-two-testimonial-area 
+.home-two-single-testimonial 
+.testimonial-text {
+    margin-top: 60px;
+}
+
+#home-two-testimonial-area 
+.home-two-single-testimonial 
+.testimonial-text h3 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 39px;
+    margin-bottom: 10px;
+}
+
+#home-two-testimonial-area 
+.home-two-single-testimonial 
+.testimonial-text span {
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: #494B57;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+#home-two-testimonial-area 
+.home-two-single-testimonial 
+.testimonial-text p {
+    color: #fff;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+#home-two-testimonial-area .owl-theme 
+.owl-nav.disabled+.owl-dots {
+    position: relative;
+    z-index: 1;
+    margin-top: -28px;
+}
+
+#home-two-testimonial-area .owl-theme 
+.owl-nav.disabled+.owl-dots span {
+    background: #FF1D5C;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16); 
+    border: 0;
+    height: 10px;
+}
+
+#home-two-testimonial-area.home-two-testimonial-gradient 
+.owl-theme .owl-nav.disabled+.owl-dots span {
+    background: #ff8a00;
+}
+
+#home-two-testimonial-area .owl-theme 
+.owl-nav.disabled+.owl-dots 
+.owl-dot.active span {
+    background: #fff;
+    border: 0px;
+}
+
+
+/* =========================
+       22. BLOG STYLES
+ =========================== */
+ #blog-area {
+    overflow: hidden;
+    padding: 120px 0 90px;
+    background: #f7f7f7;
+ }
+
+.single-blog {
+    box-shadow: 0 0 50px rgba(0,0,0,.1);
+    margin-bottom: 30px;
+    background: #fff;
+}
+
+.blog-img {
+    position: relative;
+}
+
+span.blog-date {
+    position: absolute;
+    bottom: -42px;
+    right: 15px;
+    background-image: linear-gradient(to top, rgb(14, 22, 38), rgba(0,0,0,.2));
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 32px;
+}
+
+.blog-text {
+    padding: 30px;
+}
+
+.single-blog h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #000;
+    font-weight: 700;
+}
+
+.single-blog p {
+    font-size: 14px;
+    text-align: left;
+    line-height: 32px;
+    color: #8c8686;
+}
+
+.blog-text a {
+    font-size: 14px;
+    color: #ffc107;
+    display: block;
+    font-weight: 600;
+}
+
+/* =============================== 
+      23. HOME TWO BLOG STYLE
+  ================================ */
+#home-two-blog-area {
+    padding: 140px 0;
+    background: #04091D;
+    overflow: hidden;
+}
+
+
+#home-two-blog-area .home-two-single-blog 
+.blog-img {
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+#home-two-blog-area .home-two-single-blog 
+.blog-img img {
+    width: 100%;
+    transform: scale(1.1);
+    transition: all .4s ease;
+}
+
+#home-two-blog-area .home-two-single-blog 
+.blog-img img:hover {
+    transform: scale(1);
+}
+
+#home-two-blog-area .home-two-single-blog 
+.blog-text {
+    padding: 0;
+}
+
+#home-two-blog-area .home-two-single-blog 
+.blog-text .post-meta {
+    color: #575757;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 15px;
+    display: inline-block;
+    line-height: 21px;
+}
+
+#home-two-blog-area .home-two-single-blog 
+.blog-text .post-meta a {
+    color: #575757;
+    display: inline-block;
+}
+
+#home-two-blog-area .home-two-single-blog 
+.blog-text .post-title a {
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 15px;
+    display: inline-block;
+    line-height: 30px;
+}
+
+
+#home-two-blog-area .home-two-single-blog 
+.blog-text .post-tag li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#home-two-blog-area .home-two-single-blog 
+.blog-text .post-tag li:last-child {
+    margin-right: 0;
+}
+
+#home-two-blog-area .home-two-single-blog 
+.blog-text .post-tag li a {
+    color: #FF1D5D;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Oswald';
+    line-height: 21px;
+}
+
+#home-two-blog-area.home-two-blog-gradient 
+.home-two-single-blog 
+.blog-text .post-tag li a {
+    color: #ff8a00;
+}
+
+/* ============================= 
+      24. GET IN TOUCH STYLE
+  =============================== */
+#get-in-touch-area {
+    padding: 140px 0;
+    background: #04091D;
+    overflow: hidden;
+}
+
+
+#get-in-touch-area .get-in-touch-form input[type='text'],
+#get-in-touch-area .get-in-touch-form input[type='email'],
+#get-in-touch-area .get-in-touch-form textarea {
+    width: 100%;
+    border: 1px solid #FF1D5C;
+    background: transparent;
+    padding: 20px 30px;
+    display: block;
+    margin-bottom: 30px;
+    color: #fff;
+    outline: none;
+}
+
+#get-in-touch-area.get-in-touch-gradient .get-in-touch-form input[type='text'],
+#get-in-touch-area.get-in-touch-gradient .get-in-touch-form input[type='email'],
+#get-in-touch-area.get-in-touch-gradient .get-in-touch-form textarea {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ff8a00;
+    border-image: linear-gradient(to top,#ff8a00,#da1b60) 1;
+}
+
+
+#get-in-touch-area .get-in-touch-form textarea {
+    height: 200px;
+    resize: none;
+}
+
+#get-in-touch-area .get-in-touch-form button {
+    background: #FF1D5C;
+    border: 0;
+    color: #fff;
+    padding: 15px 50px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 3px;
+    line-height: 21px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    outline: none;
+}
+
+#get-in-touch-area.get-in-touch-gradient 
+.get-in-touch-form button {
+    background-image: linear-gradient(to top,#ff8a00,#da1b60);
+}
+
+#get-in-touch-area .get-in-touch-form button i {
+    margin-left: 3px;
+}
+
+#get-in-touch-area .get-in-touch-form input[type='text']::-webkit-input-placeholder,
+#get-in-touch-area .get-in-touch-form textarea::-webkit-input-placeholder,
+#get-in-touch-area .get-in-touch-form input[type='email']::-webkit-input-placeholder
+ {
+   color: #FF1D5C;
+   font-size: 14px;
+   font-family: 'Oswald';
+   font-weight: 400;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+}
+
+#get-in-touch-area .get-in-touch-form input[type='text']::-moz-placeholder,
+#get-in-touch-area .get-in-touch-form textarea::-moz-placeholder,
+#get-in-touch-area .get-in-touch-form input[type='email']::-moz-placeholder {
+   color: #FF1D5C;
+   font-size: 14px;
+   font-family: 'Oswald';
+   font-weight: 400;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+}
+
+#get-in-touch-area .get-in-touch-form input[type='text']:-ms-input-placeholder,
+#get-in-touch-area .get-in-touch-form textarea:-ms-input-placeholder,
+#get-in-touch-area .get-in-touch-form input[type='email']:-ms-input-placeholder {
+   color: #FF1D5C;
+   font-size: 14px;
+   font-family: 'Oswald';
+   font-weight: 400;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+}
+
+
+#get-in-touch-area .get-in-touch-form input[type='email']:-moz-placeholder,
+#get-in-touch-area .get-in-touch-form textarea:-moz-placeholder,
+#get-in-touch-area .get-in-touch-form input[type='text']:-moz-placeholder {
+   color: #FF1D5C;
+   font-size: 14px;
+   font-family: 'Oswald';
+   font-weight: 400;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+}
+
+#get-in-touch-area .get-in-touch-text 
+.counter-text-line {
+    width: 140px;
+    background-color: #FF1D5D;
+    height: 1px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+#get-in-touch-area.get-in-touch-gradient 
+.get-in-touch-text .counter-text-line {
+    background: linear-gradient(to top,#ff8a00,#da1b60);
+}
+
+#get-in-touch-area .get-in-touch-text p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #9192A4;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin-bottom:15px;
+}
+
+#get-in-touch-area .get-in-touch-text h3 {
+    font-weight: 700;
+    color: #fff;
+    font-size: 32px;
+    line-height: 48px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+#get-in-touch-area.get-in-touch-area 
+.get-in-touch-text h3 {
+    color: #000;
+}
+
+#get-in-touch-area .get-in-touch-text h3 
+.counter-title-color {
+    color: #FF1D5D;
+}
+
+#get-in-touch-area.get-in-touch-gradient 
+.get-in-touch-text h3 .counter-title-color {
+    color: #ff8a00;
+}
+
+
+#get-in-touch-area .get-in-touch-text 
+.contact-text li {
+    color: #544B4E;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 10px;
+}
+
+#get-in-touch-area .get-in-touch-text 
+.contact-text li i {
+    color: #FF1D5C;
+    margin-right: 8px; 
+}
+
+
+#get-in-touch-area.get-in-touch-gradient 
+.get-in-touch-text .contact-text li i {
+    color: #ff8a00;
+}
+
+
+/*=======================
+    25. CONTACT STYLES
+=========================*/
+#contact-area {
+    overflow: hidden;
+    padding: 120px 0 90px;
+    background: #0b121f;
+    position: relative;
+}
+
+
+#contact-area .z-index {
+    position: relative;
+    z-index: 99;
+}
+
+.single-contact-text {
+    padding: 50px 30px;
+    color: #333;
+    text-align: center;
+    background: #f0f8ff;
+}
+
+.single-contact-text h4 {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.single-contact-text p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #8c8686;
+}
+
+.contact-form {
+    padding: 50px 0 0;
+    overflow: hidden;
+}
+
+.contact-form form input[type=text],
+.contact-form form input[type=email] {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    background-color: rgba(256, 256, 256, .1);
+}
+
+.contact-form form input[type=text],
+.contact-form form input[type=email],
+.contact-form form textarea {
+    color: #fff;
+}
+
+.contact-form form textarea {
+    width: 100%;
+    height: 250px;
+    outline: none;
+    resize: none;
+    padding: 20px;
+    background-color: rgba(256, 256, 256, .1);
+    border: none;
+    margin-bottom: 30px;
+}
+
+.contact-form form input[type=text]::-webkit-input-placeholder,
+.contact-form form textarea::-webkit-input-placeholder,
+.contact-form form input[type=email]::-webkit-input-placeholder {
+   color: #fff;
+   text-transform: uppercase;
+}
+
+
+.contact-form form input[type=text]::-moz-placeholder,
+.contact-form form textarea::-moz-placeholder,
+.contact-form form input[type=email]::-moz-placeholder {
+   color: #fff;
+   text-transform: uppercase;
+}
+
+.contact-form form input[type=text]:-ms-input-placeholder,
+.contact-form form textarea:-ms-input-placeholder,
+.contact-form form input[type=email]:-ms-input-placeholder {
+   color: #fff;
+   text-transform: uppercase;
+}
+
+.contact-form form input[type=text]:-moz-placeholder,
+.contact-form form textarea:-moz-placeholder,
+.contact-form form input[type=email]:-moz-placeholder {
+   color: #fff;
+   text-transform: uppercase;
+}
+
+.contact-form form button.submit-icon {
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    background-color: rgba(256, 256, 256, .1);
+}
+
+.contact-form form button.submit-icon .submit-icon {
+    margin-left: 8px;
+}
+
+/* ========================== 
+      26. CLIENTS STYLE
+ ============================ */
+#clients-area {
+    padding: 140px 0;
+    background: #04091D;
+    overflow: hidden;
+}
+
+
+#clients-area .single-client {
+    padding: 20px 30px;
+}
+
+#clients-area .single-client img {
+    max-width: 100%;
+}
+
+
+/*=========== MAP STYLES ============*/
+#map {
+    height: 492px;
+    width: 100%;
+    background-color: white;
+}
+
+
+/* ========================
+    27. COPYRIGHT AREA
+========================== */
+#footer-area {
+    overflow: hidden;
+    padding: 80px 0;
+    background-color: #080d17;
+}
+
+.copyright-area {
+    text-align: center;
+}
+
+.copyright-area h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.copyright-area p {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 300;
+}
+
+.copyright-area p a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-social ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.footer-social ul li a {
+    width: 39px;
+    height: 39px;
+    display: block;
+    color: #fff;
+    border-radius: 50%;
+    line-height: 39px;
+    margin-right: 10px;
+    transition: .4s ease;
+}
+.footer-social ul li:last-child a {
+    margin-right: 0px;
+}
+.footer-social ul li a:hover {
+    background-color: #ffc107;
+}
+
+
+/* ================================ 
+       28. HOME TWO FOOTER STYLE
+  ================================ */
+#home-two-footer-area {
+    background: #04091D;
+    overflow: hidden;
+}
+
+
+#home-two-footer-area .footer-top {
+    padding: 140px 0;
+}
+
+#home-two-footer-area .footer-top .footer-logo {
+    margin-bottom: 30px;
+}
+
+#home-two-footer-area .footer-top .footer-logo h3 a {
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff !important;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+#home-two-footer-area.home-two-footer-gradient 
+.footer-top .footer-logo h3 a {
+    color: #ff8a00 !important;
+}
+
+#home-two-footer-area .footer-top p {
+    color: #383434;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+
+}
+
+#home-two-footer-area 
+.footer-top 
+.footer-social {
+    margin-top: 40px;
+}
+
+#home-two-footer-area 
+.footer-top 
+.footer-social li {
+    display: inline-block;
+}
+
+#home-two-footer-area 
+.footer-top 
+.footer-social li a {
+    display: block;
+    margin-right: 15px;
+    font-size: 20px;
+    line-height: 44px;
+    color: #fff;
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    border: 2px solid #FF1D5C;
+    text-align: center; 
+    transition: all .4s ease;
+}
+
+.footer-social li a:hover {
+    background: #FF1D5C;
+}
+
+#home-two-footer-area.home-two-footer-gradient 
+.footer-top .footer-social li a {
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to top,#ff8a00,#da1b60) 1;
+    color: #fff;
+    border-radius: 0;
+}
+
+#home-two-footer-area.home-two-footer-gradient 
+.footer-top .footer-social li a:hover {
+    background: #ff8a00;
+    border: 2px solid transparent;
+}
+
+#home-two-footer-area .footer-top 
+.footer-subscription 
+form input[type='email'] {
+    display: block;
+    width: 75%;
+    border: 2px solid #FF1D5C;
+    background: transparent;
+    padding: 24px 25px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    color: #fff;
+    outline: none;
+}
+
+#home-two-footer-area.home-two-footer-gradient 
+.footer-top .footer-subscription 
+form input[type='email'] {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ff8a00;
+    border-image: linear-gradient(to top,#ff8a00,#da1b60) 1;
+}
+
+#home-two-footer-area .footer-top 
+.footer-subscription 
+form input[type='email']::-webkit-input-placeholder {
+    color: #2A2A2A;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+#home-two-footer-area .footer-top 
+.footer-subscription 
+form input[type='email']::-moz-placeholder {
+    color: #2A2A2A;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+#home-two-footer-area .footer-top 
+.footer-subscription 
+form input[type='email']:-moz-placeholder {
+    color: #2A2A2A;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+#home-two-footer-area 
+.footer-top .footer-subscription 
+form input[type='email']:-ms-input-placeholder {
+    color: #2A2A2A;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+} 
+
+#home-two-footer-area .footer-top 
+.footer-subscription 
+form button[type='submit'] {
+    color: #fff;
+    background: #FF1D5C;
+    width: 75%;
+    border: transparent;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    cursor: pointer;
+    outline: none;
+}
+
+#home-two-footer-area.home-two-footer-gradient 
+.footer-top .footer-subscription 
+form button[type='submit'] {
+    background-image: linear-gradient(to top,#ff8a00,#da1b60);
+}
+
+#home-two-footer-area 
+.footer-copyright-area {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+#home-two-footer-area 
+.footer-copyright-area 
+.copyright-text {
+    text-align: center;
+}
+
+#home-two-footer-area 
+.footer-copyright-area 
+.copyright-text p {
+    color: #3E3E3E;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+#home-two-footer-area 
+.footer-copyright-area 
+.copyright-text p a {
+    color: #FF1D5C;
+}
+
+#home-two-footer-area.home-two-footer-gradient 
+.footer-copyright-area 
+.copyright-text p a {
+    color: #ff8a00;
+}
+
+/*=======================
+       29. SCROLLUP
+=========================*/
+#scrollUp {
+    background: #5d00dc;
+    right: 30px;
+    bottom: 0px;
+    color: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    font-size: 18px;
+    width: 40px;
+    border-radius: 50%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    bottom: 30px;
+}
+
+/*===================================
+    30. RESPONSIVE NAV BUTTON STYLES
+=====================================*/
+.navbar-light .navbar-toggler {
+    border-color: rgb(255,255,255);
+    border-radius: 0px;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/*==================================
+    31. PRELOADER STYLES
+====================================*/
+.preloader-wrapper {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(14,22,38);
+    z-index: 9999;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  margin: 25% auto;
+  background-color: #fff;
+
+  border-radius: 100%;
+  -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+  animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-scaleout {
+  0% { -webkit-transform: scale(0) }
+  100% {
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+@keyframes sk-scaleout {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 100% {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+    opacity: 0;
+  }
+}

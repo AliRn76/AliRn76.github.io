@@ -1,0 +1,338 @@
+/* Bigger layout */
+@media (max-width: 1920px) {
+  .header-bottom .item {
+    padding-top: 20%;
+  }
+}
+
+@media (width: 1920px) {
+  #navbar-header .navbar-brand {
+    font-size: 45px;
+    line-height: 67px;
+  }
+  
+  a.nav-link {
+    font-size: 16px;
+  }
+}
+
+
+/* Desktop layout :992px.  */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+/* Desktop layout */
+@media (min-width: 992px) and (max-width: 1024px) {
+  .contact-info ul li {
+    font-size: 13px;
+    margin-right: 5px;
+  }
+
+  .single-features h4 {
+    font-size: 15px;
+  }
+
+  .single-about h3 {
+    font-size: 65px;
+  }
+
+  .single-counter {
+    height: 220px;
+    width: 220px;
+  }
+
+}
+
+/* Max width 1024px */
+@media (max-width: 1024px) {
+  .home-two-single-service {
+    margin-bottom: 30px;
+  }
+
+  .home-two-single-pricing {
+    margin-bottom: 30px;
+  }
+
+  .home-two-single-blog {
+    margin-bottom: 30px;
+  }
+
+  /*.get-in-touch-form {
+    margin-bottom: 30px;
+  }
+
+  .footer-social {
+    margin-bottom: 30px;
+  }*/
+
+  #home-two-portfolio-area 
+  .portfolio-content 
+  .home-two-single-portfolio {
+    width: 50%;
+  }
+
+}
+
+/* Tablet layout : Max-width :991px */
+@media (max-width: 991px) {
+  .single-features {
+    margin-bottom: 30px;
+  }
+
+  .aboutus-text {
+    margin-bottom: 30px;
+  }
+
+  .counter-text {
+    text-align: center;
+  }
+
+  .single-counter {
+    margin-bottom: 30px;
+  }
+
+  .single-pricing-table {
+    margin-bottom: 30px;
+  }
+
+  .single-team {
+    margin-bottom: 30px;
+  }
+
+
+  .testimonial-text {
+    padding: 0 40px;
+  }
+
+  #home-two-testimonial-area 
+  .home-two-single-testimonial 
+  .testimonial-text p {
+    font-size: 18px;
+  }
+
+}
+
+
+/* Tablet layout :768px */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .header-bottom h2 {
+    font-size: 45px;
+    line-height: 60px;
+  }
+
+  .contact-info ul {
+    flex-direction: column;
+  }
+
+  .single-about {
+    column-count: 1;
+  }
+
+  .single-about h3 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .testimonial-text {
+    padding: 0 30px;
+  }
+
+
+}
+
+/* Small mobile  layout :320px */
+@media only screen and (max-width: 767px) {
+  .contact-info {
+    margin-bottom: 20px;
+  }
+
+  .social-menu {
+    margin-bottom: 20px;
+  }
+
+  .search-bar input[type=search] {
+    padding: 10px 26px;
+  }
+
+  .header-bottom h2 {
+    font-size: 23px;
+    line-height: 30px
+  }
+
+  .single-about {
+    column-count: 1;
+  }
+
+  .single-about h3 {
+    font-size: 35px;
+  }
+
+  .section-heading h2 {
+    font-size: 21px;
+  }
+
+  .single-contact-text {
+    margin-bottom: 30px;
+  }
+
+  #home-two-testimonial-area 
+  .home-two-single-testimonial {
+    margin-left: 30px;
+  }
+
+  .get-in-touch-form {
+    margin-bottom: 60px;
+  }
+
+  .footer-social {
+    margin-bottom: 30px;
+  }
+
+  .header-part-two 
+  .header-bottom 
+  .single-slider 
+  .slider-top-line {
+    margin-bottom: 5px;
+  }
+
+  .header-part-two 
+  .header-bottom 
+  .single-slider p {
+    margin-bottom: 10px;
+  }
+
+  .header-part-two 
+  .header-bottom 
+  .single-slider h1 {
+    font-size: 23px;
+    line-height: 30px;
+    margin-bottom: 8px;
+  }
+
+  .header-part-two 
+  .header-bottom 
+  .single-slider h6 {
+    line-height: 21px;
+    margin-bottom: 15px;
+  }
+
+  .header-part-two 
+  .header-bottom 
+  .single-slider a {
+    font-size: 12px;
+    padding: 10px 12px;
+    letter-spacing: 2px;
+  }
+
+
+}
+
+/* Max 560px layout */
+@media only screen and (max-width: 560px) {
+  
+  .header-part-two 
+  .header-bottom 
+  .single-slider {
+    padding-left: 15px;
+  }
+
+  #home-two-portfolio-area 
+  .portfolio-content 
+  .home-two-single-portfolio {
+    width: 100%;
+  }
+}
+
+
+/* Max 480px layout */
+@media only screen and (max-width: 480px) {
+
+    ul.portfolio-nav li {
+      padding: 3px 12px;
+      margin-right: 0px;
+    }
+
+    #separator-area .separator-text p {
+      font-size: 25px;
+      line-height: 50px;
+    }
+
+
+
+  #home-two-service-area 
+  .home-two-single-service p {
+    font-size: 14px;
+  }
+
+    .home-two-section-heading h2 {
+      font-size: 36px;
+    }
+
+    #home-two-testimonial-area 
+    .home-two-single-testimonial {
+      padding: 50px 15px;
+    }
+
+    .testimonial-text {
+      padding: 0;
+    }
+
+    #home-two-testimonial-area 
+    .home-two-single-testimonial 
+    .testimonial-text h3 {
+      font-size: 22px;
+      line-height: 30px;
+      margin-bottom: 5px;
+    }
+
+    #home-two-testimonial-area 
+    .home-two-single-testimonial 
+    .testimonial-text span {
+      margin-bottom: 5px;
+    }
+
+    #home-two-testimonial-area 
+    .home-two-single-testimonial 
+    .testimonial-text p {
+      font-size: 14px;
+      line-height: 28px;
+    }
+
+
+    #home-two-testimonial-area 
+    .owl-theme 
+    .owl-nav.disabled+.owl-dots {
+      margin-left: 30px;
+    }
+}
+
+
+/* Max 360px layout */
+@media only screen and (max-width: 360px) {
+  
+
+  
+}
+
+/* Max 320px layout */
+@media only screen and (max-width: 320px) {
+  .contact-info ul li {
+      font-size: 12px;
+  }
+
+  .single-features h4 {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+
+  .intro-team h4 {
+    font-size: 13px;
+  }
+
+  .intro-team span {
+    font-size: 13px;
+  }
+
+}

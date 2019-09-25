@@ -1,0 +1,33 @@
+/* Only For Demo page style */
+.container {
+    max-width: 90%;
+}
+
+.single-portfolio {
+	position: relative;
+}
+
+.single-portfolio .new-demo {
+	position: absolute;
+    top: -8px;
+    right: -5px;
+    width: 45px;
+    height: 45px;
+    background: #e63d3d;
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+    line-height: 11px;
+    display: inline-block;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+@media (max-width: 1920px) {
+    .header-bottom .item {
+        padding-top: 7%;
+    }
+}
