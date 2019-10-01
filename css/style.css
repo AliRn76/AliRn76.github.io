@@ -324,7 +324,7 @@ a.nav-link.active {
 }
 
 .header-bottom h2 {
-    font-size: 55px;
+    font-size: 50px;
     color: #fff;
     text-transform: uppercase;
     margin-top: 10%;
@@ -710,7 +710,7 @@ h1 .slider-heading-color {
 /* ==============================
      09. PORTFOLIO STYLES
  ================================ */
-#portfolio-area {
+#team-area {
     padding: 120px 0 90px;
     overflow: hidden;
     background-color: #fff;
@@ -2805,3 +2805,5 @@ form button[type='submit'] {
     opacity: 0;
   }
 }
+
+
